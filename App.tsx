@@ -10,13 +10,16 @@
 
 import React from 'react';
 import {StyleSheet, View} from 'react-native';
+import ThreeDLoader from './3dLoader';
 
 import ButtonLoader from './ButtonWithLoader';
 
 const App = () => {
   return (
     <View style={{flex: 1, justifyContent: 'center'}}>
-      <ButtonLoader />
+      {/* <ButtonLoader /> */}
+
+      <ThreeDLoader />
     </View>
   );
 };
